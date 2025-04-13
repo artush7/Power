@@ -97,5 +97,14 @@ TEST(Power,minus7_minus7)
 {
     EXPECT_EQ(power(-7,-7),-(1/823543));
 }
+TEST(Power,0_0)
+{
+    EXPECT_EQ(power(0,0),1);
+}
+TEST(Power,0_minus1)
+{
+    EXPECT_EQ(power(0,-1),1);
+}
+
 
 
